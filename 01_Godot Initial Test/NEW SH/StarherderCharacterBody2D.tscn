@@ -4,7 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://cyhmuedmbve87" path="res://NEW SH/starherder.tscn" id="2_xmkhf"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_8pr2m"]
-size = Vector2(79, 158)
+size = Vector2(79, 129)
 
 [node name="CharacterBody2D" type="CharacterBody2D"]
 script = ExtResource("1_4wjoo")
@@ -12,5 +12,5 @@ script = ExtResource("1_4wjoo")
 [node name="Starherder" parent="." instance=ExtResource("2_xmkhf")]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(3.5, -79)
+position = Vector2(3.5, -64.5)
 shape = SubResource("RectangleShape2D_8pr2m")
